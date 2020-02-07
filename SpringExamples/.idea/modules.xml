@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringExamples.iml" filepath="$PROJECT_DIR$/SpringExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-decorator/batch-decorator.iml" filepath="$PROJECT_DIR$/batch-decorator/batch-decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-partitioner/batch-partitioner.iml" filepath="$PROJECT_DIR$/batch-partitioner/batch-partitioner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-hateoas/boot-hateoas.iml" filepath="$PROJECT_DIR$/boot-hateoas/boot-hateoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/command-line-runner/command-line-runner.iml" filepath="$PROJECT_DIR$/command-line-runner/command-line-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/context-path-server-port/context-path-server-port.iml" filepath="$PROJECT_DIR$/context-path-server-port/context-path-server-port.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-spring-boot-banner/custom-spring-boot-banner.iml" filepath="$PROJECT_DIR$/custom-spring-boot-banner/custom-spring-boot-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disable-spring-boot-banner/disable-spring-boot-banner.iml" filepath="$PROJECT_DIR$/disable-spring-boot-banner/disable-spring-boot-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email/email.iml" filepath="$PROJECT_DIR$/email/email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embedded-jetty-server/embedded-jetty-server.iml" filepath="$PROJECT_DIR$/embedded-jetty-server/embedded-jetty-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enable-scheduling/enable-scheduling.iml" filepath="$PROJECT_DIR$/enable-scheduling/enable-scheduling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/get-loaded-beans-info/get-loaded-beans-info.iml" filepath="$PROJECT_DIR$/get-loaded-beans-info/get-loaded-beans-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rmi/hessian-client/hessian-client.iml" filepath="$PROJECT_DIR$/spring-rmi/hessian-client/hessian-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rmi/hessian-server/hessian-server.iml" filepath="$PROJECT_DIR$/spring-rmi/hessian-server/hessian-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/i18n/i18n.iml" filepath="$PROJECT_DIR$/i18n/i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger-configuration/logger-configuration.iml" filepath="$PROJECT_DIR$/logger-configuration/logger-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main-class/main-class.iml" filepath="$PROJECT_DIR$/main-class/main-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minimum-setup/minimum-setup.iml" filepath="$PROJECT_DIR$/minimum-setup/minimum-setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/oauth2/oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packaging-war/packaging-war.iml" filepath="$PROJECT_DIR$/packaging-war/packaging-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-crud-hibernate/rest-crud-hibernate.iml" filepath="$PROJECT_DIR$/rest-crud-hibernate/rest-crud-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-hateoas/rest-hateoas.iml" filepath="$PROJECT_DIR$/rest-hateoas/rest-hateoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-jersey-example/rest-jersey-example.iml" filepath="$PROJECT_DIR$/rest-jersey-example/rest-jersey-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resttemplate/resttemplate.iml" filepath="$PROJECT_DIR$/resttemplate/resttemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rmi/rmi-client/rmi-client.iml" filepath="$PROJECT_DIR$/spring-rmi/rmi-client/rmi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rmi/rmi-server/rmi-server.iml" filepath="$PROJECT_DIR$/spring-rmi/rmi-server/rmi-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-customization/server-customization.iml" filepath="$PROJECT_DIR$/server-customization/server-customization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rmi/spring-rmi.iml" filepath="$PROJECT_DIR$/spring-rmi/spring-rmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-webflux-demo/spring-webflux-demo.iml" filepath="$PROJECT_DIR$/spring-webflux-demo/spring-webflux-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssl-https/ssl-https.iml" filepath="$PROJECT_DIR$/ssl-https/ssl-https.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-ui/swagger-ui.iml" filepath="$PROJECT_DIR$/swagger-ui/swagger-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-freemarker/template-freemarker.iml" filepath="$PROJECT_DIR$/template-freemarker/template-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-jsp/template-jsp.iml" filepath="$PROJECT_DIR$/template-jsp/template-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-mustache/template-mustache.iml" filepath="$PROJECT_DIR$/template-mustache/template-mustache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template-thymeleaf/template-thymeleaf.iml" filepath="$PROJECT_DIR$/template-thymeleaf/template-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-testing/unit-testing.iml" filepath="$PROJECT_DIR$/unit-testing/unit-testing.iml" />
+    </modules>
+  </component>
+</project>
