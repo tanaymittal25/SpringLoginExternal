@@ -24,11 +24,11 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
  
     @Override
+ 
     protected void configure(HttpSecurity http) throws Exception {
-    
     	
     	http.requestMatchers()
-          .antMatchers("/login", "/oauth/authorize")
+          .antMatchers("/login")
           .and()
           .authorizeRequests()
           .anyRequest().authenticated()
@@ -45,6 +45,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         	.inMemoryAuthentication();
     }*/
      
+	/*@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.authorizeRequests().antMatchers("/").permitAll();
+	/*	http.cors().and().csrf().disable().headers().frameOptions().sameOrigin().and().
+		   authorizeRequests().anyRequest().anonymous().and().httpBasic().disable();
+	}*/
+	
     @Bean
     public BCryptPasswordEncoder passwordEncoder(){ 
         return new BCryptPasswordEncoder(); 

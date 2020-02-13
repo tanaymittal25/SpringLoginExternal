@@ -9,10 +9,8 @@ public class LoginController {
 	
 	@RequestMapping("/login")
 	public String login() {
-		System.out.print("LoginPage");
-		return "login.html";
+		String redirectUrl = "http://localhost:8081/login";
+		return "redirect:" + redirectUrl;
 	}
-	
-
 
 }

@@ -4,23 +4,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script>
-	function callLogin() {
-		var urlParams = new URLSearchParams(window.location.search);
-		console.log(urlParams.get('username'));
-		var keys = urlParams.keys();
-		for(key of keys) { 
-		  console.log(key);
-		}
-		var params = "username"+urlParams.get('username')+"&password"+urlParams.get('password');
-		var xhr = new XMLHttpRequest();
-		xhr.open("POST", "http://localhost:8080/login", true);
-		//Send the proper header information along with the request
-		xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-		xhr.send(params);
+	function callConsent() {
+		window.location.href = "http://localhost:8082/consentPage";
 	}
 </script>
 </head>
-<body onload="callLogin()">
+<body onload="callConsent()">
 	
 </body>
 </html>
