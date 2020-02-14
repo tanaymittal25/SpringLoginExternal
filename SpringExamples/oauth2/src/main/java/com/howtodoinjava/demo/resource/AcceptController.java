@@ -1,14 +1,19 @@
 package com.howtodoinjava.demo.resource;
 
+import java.io.Serializable;
 import java.security.Principal;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import org.springframework.web.servlet.View;
 import com.howtodoinjava.demo.resource.AuthorizationEndpoint;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.common.exceptions.UnsupportedResponseTypeException;
 import org.springframework.security.oauth2.common.util.OAuth2Utils;
 import org.springframework.security.oauth2.provider.AuthorizationRequest;
@@ -53,6 +58,27 @@ public class AcceptController extends AuthorizationRequest {
 		requestParameters.put("client_id", "clientapp");
 		requestParameters.put("scope", "read_profile_info");
 		authReq.setRequestParameters(requestParameters);
+		
+		Set<String> responseTypes = new HashSet<String>();
+		responseTypes.add("code");
+		authReq.setResponseTypes(responseTypes);
+		
+		Set<String> resourceIds = new HashSet<String>();
+		resourceIds.add("oauth2-resource");
+		authReq.setResourceIds(resourceIds);
+		
+		authReq.setApproved(true);
+		
+		Map<String,Serializable> extensions = new HashMap<String,Serializable>();
+		authReq.setExtensions(extensions);
+		
+		//String state;
+		authReq.setState("null");
+		
+		Collection<GrantedAuthority> authorities = new HashSet<GrantedAuthority>(); 
+		SimpleGrantedAuthority simpleAuth = new SimpleGrantedAuthority("READ_ONLY_CLIENT");
+		authorities.add(simpleAuth);
+		authReq.setAuthorities(authorities);
 		
 		Authentication authUser = null;
 		authUser.setAuthenticated(true);
